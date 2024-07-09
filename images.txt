@@ -16,9 +16,6 @@ openjdk:17
 openjdk:21
 python:3
 rust
-golang:1.19.13-alpine3.18-o
-golang:1.22.2-alpine3.19
-golang
 
 # ISO
 centos:7.9
