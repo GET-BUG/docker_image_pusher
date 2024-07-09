@@ -4,10 +4,80 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
-# image list
-nginx
+#### image list ####
+
+# language
+node
+node:16
+node:18
+node:20
+openjdk:8
+openjdk:17
+openjdk:21
+python:3
+rust
+golang:1.19.13-alpine3.18-o
+golang:1.22.2-alpine3.19
+golang
+
+# ISO
+centos:7.9
+alpine:3.20.1
+alpine:3.19
+debian:12
+ubuntu:22
+
+# DB
+mysql:5.7
+mysql:8.0
+mysql:8.4
+mysql:9.0
+redis:7.2
+mongodb
+postgres
+postgres:16.2
+
+# CAS
 nacos/nacos-server:v2.3.2
 bladex/sentinel-dashboard:1.8.6
 seataio/seata-server:2.0.0
 apache/rocketmq:5.1.4
+
+# hadoop
+flink
+zookeeper
+
+# ELK
+elasticsearch:8
+logstash:8
+kibana:8
+cerebro:v0.9.4
+
+# devops
+jenkins
+sonarqube
+nginx
+tomcat
+gradle
+maven
+
+# tools
+perl
+jruby
+solr
+groovy
+erlang
+jetty
+bash
+gcc
+openresty:1.25.3.1-alpine
+gcs
+gitlab-ce
+openldap:1.4.0
+cnsenter
+cnsenter:tools
+
+
+
+
 
